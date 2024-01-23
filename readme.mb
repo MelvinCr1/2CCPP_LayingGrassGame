@@ -1,0 +1,58 @@
+# Laying Grass Game
+
+This C++ project implements a simplified version of the "Laying Grass" game inspired by The Devil's Plan Netflix reality game show.
+
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Game Rules](#game-rules)
+- [Project Structure](#project-structure)
+- [Technical choice](#Technical choice)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+## Introduction
+
+The project is a group effort by Melvin CUREAU and Axel CHEVALLEREAU for the C++ module. It aims to create a console-based version of the "Laying Grass" game, where players compete to create the largest square territory on a grid-based board.
+
+
+## Game Rules
+
+•	Board Game : The board is a grid of 20x20 squares for 2 to 4 players, and 30x30 squares for 5 to 9 players.
+•	Start of the Game : Each player starts with a 1x1 grass tile and a tile exchange coupon. Players place their starting tile on the board, establishing their initial territory.
+•	Tiles : There are 96 different tiles, each unique. Each turn, players receive a grass tile. A redemption coupon can be used to choose one tile from the following five. 
+•	Tile Placement : The first tile must touch at least one side of the player's starting tile. Subsequent tiles must be placed so as to touch the player's existing territory. Once placed, a tile becomes immutable and cannot overlap other tiles.
+•	Territory : The grouping of tiles in contact with the starting tile forms the player's territory. Tiles cannot touch other players' territory.
+•	Exchange coupons : An exchange coupon can be used if the tile received is not desired. The player can then choose a tile from the following five.
+•	End of Game : The game takes place over nine rounds, with each player playing nine tiles in total. At the end, players can use a trade coupon to obtain an additional 1x1 grass tile, placed freely on the board.
+•	Bonus Squares : Certain squares on the board grant special benefits when a tile is placed around them. These benefits include redeeming coupons, laying stone tiles, or even stealing a tile from an opponent.
+•	Victory : The player who manages to cover the largest square (for example, 7x7) is declared the winner. In the event of a tie, victory goes to the player with the greatest number of grass squares in their territory.
+
+
+## Project Structure
+
+The project follows a simple file structure:
+
+- **src/**: Contains the source code files.
+- **main.snl**: Configuration file.
+- **README.md**: Project documentation.
+
+
+## Technical choice
+
+• Programming language: C++
+• Code editor: Visual Studio 2022
+• Version control system: Git and GitHub
+• Operating system: Windows / Linux / MacOS
+
+
+## Contributing
+
+Melvin Cureau - Initial work
+Axel Chevallereau - Initial work
+
+
+## License
+
+This project is licensed under the MIT License - see the license file for details.
